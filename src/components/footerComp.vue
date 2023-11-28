@@ -5,7 +5,7 @@
 </script>
 
 <template>
-    <h1>footer</h1>
+    <h3>Project Vue + Express</h3>
 </template>
 
 <style lang="scss" scoped>

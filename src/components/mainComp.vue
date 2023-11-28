@@ -10,7 +10,7 @@ import axios from 'axios'
          },
          mounted(){
             this.chiamataApi()
-            console.log(this.arrayPost)
+            //console.log(this.arrayPost)
          },
         methods: {
             chiamataApi(){
@@ -27,7 +27,7 @@ import axios from 'axios'
 </script>
 
 <template>
-    <div class="d-flex justify-content-around w-100">
+    <div class="d-flex justify-content-around w-100 vh-100">
         <div v-for="elem in arrayPost">
             <div>{{ elem.title }}</div>
             <div>{{ elem.content }}</div>
