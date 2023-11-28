@@ -27,10 +27,14 @@ import axios from 'axios'
      <div class="d-flex justify-content-around flex-wrap w-100 vh-100">
         <div class="container-post" v-for="elem in arraySinglePost">
             
-                <div>{{ elem.title }}</div>
-                <div>{{ elem.content }}</div>
-                <div>{{ elem.category.name }}</div>
-            
+                <h1>{{ elem.title }}</h1>
+                <h2>{{ elem.content }}</h2>
+                <h3>{{ elem.category.name }}</h3>
+                <button class="btn btn-primary">
+                    <router-link :to="{name: 'update', params:{slug:elem.slug}}" class="nav-link active" aria-current="page">
+                        Modfica Post
+                    </router-link>
+                </button>
         </div>
     </div>
 </template>

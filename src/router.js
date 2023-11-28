@@ -18,7 +18,7 @@ const router = createRouter({
             component: creaPost
         },
         {
-            path: '/update',
+            path: '/update/:slug',
             name: 'update',
             component: updatePost
         },

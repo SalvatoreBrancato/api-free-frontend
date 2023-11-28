@@ -80,7 +80,7 @@ export default {
     </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
 .container-form{
     width: 600px;
 }
