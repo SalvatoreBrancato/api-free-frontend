@@ -33,6 +33,9 @@ import axios from 'axios'
                 <div>{{ elem.title }}</div>
                 <div>{{ elem.content }}</div>
                 <div>{{ elem.category.name }}</div>
+                <div v-for="e in elem.tags ">
+                    <div>{{ e.name }}</div>
+                </div>
             </RouterLink>
         </div>
     </div>
