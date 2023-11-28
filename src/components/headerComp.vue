@@ -24,6 +24,11 @@ export default {
                         Crea Post
                     </router-link>
                 </div>
+                <div class="navbar-nav">
+                    <router-link :to="{name: 'update'}" class="nav-link active" aria-current="page">
+                        Modfica Post
+                    </router-link>
+                </div>
             </div>
         </div>
     </nav>
